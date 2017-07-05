@@ -1,0 +1,19 @@
+turtle.home()
+turtle.clear()
+
+turtle.up()
+for j in range(4):
+ turtle.forward(10)
+ turtle.left(90)
+ turtle.forward(10)
+ turtle.down()
+ for i in range(4):
+  turtle.forward(100)
+  turtle.left(-90)
+ turtle.up()
+ turtle.left(90)
+ turtle.forward(10)
+ turtle.left(90)
+ turtle.forward(10)
+ turtle.left(180)
+ 
